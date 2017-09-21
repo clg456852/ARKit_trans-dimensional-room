@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5297E7D91F72529D00C6C51B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5297E7D81F72529D00C6C51B /* AppDelegate.m */; };
+		5297E7DB1F72529D00C6C51B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5297E7DA1F72529D00C6C51B /* art.scnassets */; };
+		5297E7DE1F72529D00C6C51B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5297E7DD1F72529D00C6C51B /* ViewController.m */; };
+		5297E7E11F72529D00C6C51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5297E7DF1F72529D00C6C51B /* Main.storyboard */; };
+		5297E7E31F72529D00C6C51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5297E7E21F72529D00C6C51B /* Assets.xcassets */; };
+		5297E7E61F72529D00C6C51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5297E7E41F72529D00C6C51B /* LaunchScreen.storyboard */; };
+		5297E7E91F72529D00C6C51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5297E7E81F72529D00C6C51B /* main.m */; };
+		5297E7F41F72531200C6C51B /* transDimenRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5297E7F11F72531200C6C51B /* transDimenRoom.m */; };
+		5297E7F51F72531200C6C51B /* transDimenStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5297E7F31F72531200C6C51B /* transDimenStruct.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5297E7D41F72529D00C6C51B /* ARKit_trans-dimensional room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit_trans-dimensional room.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5297E7D71F72529D00C6C51B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5297E7D81F72529D00C6C51B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5297E7DA1F72529D00C6C51B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5297E7DC1F72529D00C6C51B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5297E7DD1F72529D00C6C51B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5297E7E01F72529D00C6C51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5297E7E21F72529D00C6C51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5297E7E51F72529D00C6C51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5297E7E71F72529D00C6C51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5297E7E81F72529D00C6C51B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5297E7F01F72531200C6C51B /* transDimenRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transDimenRoom.h; sourceTree = "<group>"; };
+		5297E7F11F72531200C6C51B /* transDimenRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transDimenRoom.m; sourceTree = "<group>"; };
+		5297E7F21F72531200C6C51B /* transDimenStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transDimenStruct.h; sourceTree = "<group>"; };
+		5297E7F31F72531200C6C51B /* transDimenStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transDimenStruct.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5297E7D11F72529D00C6C51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5297E7CB1F72529D00C6C51B = {
+			isa = PBXGroup;
+			children = (
+				5297E7D61F72529D00C6C51B /* ARKit_trans-dimensional room */,
+				5297E7D51F72529D00C6C51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5297E7D51F72529D00C6C51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5297E7D41F72529D00C6C51B /* ARKit_trans-dimensional room.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5297E7D61F72529D00C6C51B /* ARKit_trans-dimensional room */ = {
+			isa = PBXGroup;
+			children = (
+				5297E7EF1F72531200C6C51B /* transDimenRoom */,
+				5297E7D71F72529D00C6C51B /* AppDelegate.h */,
+				5297E7D81F72529D00C6C51B /* AppDelegate.m */,
+				5297E7DA1F72529D00C6C51B /* art.scnassets */,
+				5297E7DC1F72529D00C6C51B /* ViewController.h */,
+				5297E7DD1F72529D00C6C51B /* ViewController.m */,
+				5297E7DF1F72529D00C6C51B /* Main.storyboard */,
+				5297E7E21F72529D00C6C51B /* Assets.xcassets */,
+				5297E7E41F72529D00C6C51B /* LaunchScreen.storyboard */,
+				5297E7E71F72529D00C6C51B /* Info.plist */,
+				5297E7E81F72529D00C6C51B /* main.m */,
+			);
+			path = "ARKit_trans-dimensional room";
+			sourceTree = "<group>";
+		};
+		5297E7EF1F72531200C6C51B /* transDimenRoom */ = {
+			isa = PBXGroup;
+			children = (
+				5297E7F01F72531200C6C51B /* transDimenRoom.h */,
+				5297E7F11F72531200C6C51B /* transDimenRoom.m */,
+				5297E7F21F72531200C6C51B /* transDimenStruct.h */,
+				5297E7F31F72531200C6C51B /* transDimenStruct.m */,
+			);
+			path = transDimenRoom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5297E7D31F72529D00C6C51B /* ARKit_trans-dimensional room */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5297E7EC1F72529D00C6C51B /* Build configuration list for PBXNativeTarget "ARKit_trans-dimensional room" */;
+			buildPhases = (
+				5297E7D01F72529D00C6C51B /* Sources */,
+				5297E7D11F72529D00C6C51B /* Frameworks */,
+				5297E7D21F72529D00C6C51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit_trans-dimensional room";
+			productName = "ARKit_trans-dimensional room";
+			productReference = 5297E7D41F72529D00C6C51B /* ARKit_trans-dimensional room.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5297E7CC1F72529D00C6C51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ooOlly;
+				TargetAttributes = {
+					5297E7D31F72529D00C6C51B = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 5297E7CF1F72529D00C6C51B /* Build configuration list for PBXProject "ARKit_trans-dimensional room" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5297E7CB1F72529D00C6C51B;
+			productRefGroup = 5297E7D51F72529D00C6C51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5297E7D31F72529D00C6C51B /* ARKit_trans-dimensional room */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5297E7D21F72529D00C6C51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5297E7DB1F72529D00C6C51B /* art.scnassets in Resources */,
+				5297E7E61F72529D00C6C51B /* LaunchScreen.storyboard in Resources */,
+				5297E7E31F72529D00C6C51B /* Assets.xcassets in Resources */,
+				5297E7E11F72529D00C6C51B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5297E7D01F72529D00C6C51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5297E7F51F72531200C6C51B /* transDimenStruct.m in Sources */,
+				5297E7DE1F72529D00C6C51B /* ViewController.m in Sources */,
+				5297E7F41F72531200C6C51B /* transDimenRoom.m in Sources */,
+				5297E7E91F72529D00C6C51B /* main.m in Sources */,
+				5297E7D91F72529D00C6C51B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5297E7DF1F72529D00C6C51B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5297E7E01F72529D00C6C51B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5297E7E41F72529D00C6C51B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5297E7E51F72529D00C6C51B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5297E7EA1F72529D00C6C51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5297E7EB1F72529D00C6C51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5297E7ED1F72529D00C6C51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YB5Z7ZBR3G;
+				INFOPLIST_FILE = "ARKit_trans-dimensional room/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailing.ARKit-trans-dimensional-room";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5297E7EE1F72529D00C6C51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YB5Z7ZBR3G;
+				INFOPLIST_FILE = "ARKit_trans-dimensional room/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailing.ARKit-trans-dimensional-room";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5297E7CF1F72529D00C6C51B /* Build configuration list for PBXProject "ARKit_trans-dimensional room" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5297E7EA1F72529D00C6C51B /* Debug */,
+				5297E7EB1F72529D00C6C51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5297E7EC1F72529D00C6C51B /* Build configuration list for PBXNativeTarget "ARKit_trans-dimensional room" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5297E7ED1F72529D00C6C51B /* Debug */,
+				5297E7EE1F72529D00C6C51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5297E7CC1F72529D00C6C51B /* Project object */;
+}
